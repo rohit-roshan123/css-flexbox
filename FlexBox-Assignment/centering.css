@@ -1,0 +1,16 @@
+.center-container {
+/* YOUR TASK: Make this a flex container */
+display: flex;
+/* YOUR TASK: Center horizontally */
+justify-content: center;
+/* YOUR TASK: Center vertically */
+align-items: center;
+height: 100vh; /* Full screen height */
+background-color: #f0f0f0;
+}
+.centered-content {
+background: white;
+padding: 2rem;
+border-radius: 8px;
+text-align: center;
+}

@@ -1,0 +1,25 @@
+.card-container {
+/* YOUR TASK: Make this a flex container */
+display: flex;
+/* YOUR TASK: Allow wrapping to next line */
+flex-wrap: wrap;
+/* YOUR TASK: Add space between cards */
+gap: 50px;
+
+justify-content: space-evenly;
+padding: 2rem;
+}
+.card {
+/* YOUR TASK: Make each card take equal space */
+justify-content: space-evenly;
+
+/* YOUR TASK: Set minimum width before wrapping */
+
+min-width: 250px;
+
+background: white;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 1rem;
+text-align: center;
+}

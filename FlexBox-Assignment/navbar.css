@@ -1,0 +1,29 @@
+.navbar {
+/* YOUR TASK: Make this a flex container */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+height: 50px;
+justify-content: space-around;
+/* YOUR TASK: Align items vertically in center */
+align-items: center;
+/* YOUR TASK: Spread logo, links, and button apart */
+justify-content: space-evenly;
+background-color: #333;
+color: white;
+padding: 1rem;
+
+}
+.nav-links {
+/* YOUR TASK: Make this a flex container */
+display: flex;
+gap: 30px;
+/* YOUR TASK: Remove default list styling */
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.nav-links li {
+/* YOUR TASK: Add space between menu items */
+margin: 0 1rem;
+}

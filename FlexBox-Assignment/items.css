@@ -1,0 +1,7 @@
+.align-items
+{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
